@@ -21,7 +21,7 @@
             </span>
           </a>
         </li>
-		
+			<li><a href="<?= base_url()?>anggota"><i class="fa  fa-user"></i> Anggota</a></li>
         <li class="treeview">
           <a href="#">
             <i class="fa fa-desktop"></i>
@@ -38,7 +38,7 @@
         </li>
 
 				<hr>
-				
+								<li><a href="<?= base_url()?>login/logout"><i class="fa  fa-sign-out"></i> Logout</a></li>
          </ul>
     </section>
     <!-- /.sidebar -->
