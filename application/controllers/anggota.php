@@ -64,13 +64,14 @@ class Anggota Extends CI_Controller{
 		}
 	}
 
-	// public function hapus($id)
-	// {
-	// 	 $query = $this->m_anggota->hapus($id);
-	// 	 if ($query = true) {
-	// 		$this->session->set_flashdata('info','Data Berhasil di Hapus');
-	// 		redirect('anggota');
-	// }
+	public function hapus($id)
+	{
+		 $query = $this->m_anggota->hapus($id);
+		 if ($query = true) {
+			$this->session->set_flashdata('info','Data Berhasil di Hapus');
+			redirect('anggota');
+	}
+}
 }
 
 ?>
